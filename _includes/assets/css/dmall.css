@@ -51,8 +51,15 @@ p {
 }
 
 .dm-l-grid {
-    display: grid;
-    grid-template-columns: 10% repeat(12, 1fr) 5%;
+    margin: 0 5%;
+}
+
+@media screen and (min-width: 600px){
+    .dm-l-grid {
+        display: grid;
+        grid-template-columns: 10% repeat(12, 1fr) 5%;
+        margin: 0;
+    }
 }
 
 .dm-c-articleContent {
