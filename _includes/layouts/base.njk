@@ -5,14 +5,16 @@
 
 	<body>
 
-		<header>
+		{% include "components/header.njk" %}
+
+		{# <header>
 			<em>
 				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
 			</em>
 			{% include "components/nav.njk" %}
-		</header>
+		</header> #}
 
-		<main>
+		<main class="dm-l-grid">
 			{{ layoutContent | safe }}
 		</main>
 

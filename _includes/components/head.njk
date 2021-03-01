@@ -5,8 +5,10 @@
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="stylesheet" href="https://api.usearcade.com/api/public/projects/603aa3d6806c0f0017cb65a5/exports/css/live" />
   {% set css %}
-    {% include "assets/css/inline.css" %}
+    {# {% include "assets/css/inline.css" %} #}
+    {% include "assets/css/dmall.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}

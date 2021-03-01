@@ -1,0 +1,76 @@
+body {
+    font: normal 62.5%/1.4 Georgia, 'Times New Roman', serif;
+    padding: 4rem 0 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+h1, 
+.h1 {
+    font-size: 4rem;    
+}
+
+h2, 
+.h2 {
+    font-size: 3.2rem;    
+}
+
+h3, 
+.h3 {
+    font-size: 2.4rem;    
+}
+
+h4, 
+.h4,
+h5, 
+.h5,
+h6, 
+.h6 {
+    font-size: 2rem;    
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.dm-svg-logo {
+    width: 56px;
+    grid-column: 4;
+}
+
+.dm-l-grid {
+    display: grid;
+    grid-template-columns: 10% repeat(12, 1fr) 5%;
+}
+
+.dm-c-articleContent {
+    grid-column: 4 / -3;
+}
+
+.dm-c-article_title {
+    font-size: 8.8rem;
+    font-style: italic;
+    line-height: 1.1;
+    text-indent: -16.666666667%;
+}
+
+.dm-c-footer {
+    grid-column: 4 / -3;
+    margin-top: 12rem;
+}
+
+    .dm-c-footer p {
+        font-size: 0.8rem;
+    }

@@ -3,8 +3,10 @@ layout: layouts/base.njk
 section: post
 ---
 
-<article>
-  <h1>{{ title }}</h1>
+<article class="dm-c-articleContent">
+
+  <h1 class="dm-c-article_title">{{ title }}</h1>
+
   <p>
     <small>
       <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
@@ -26,6 +28,7 @@ section: post
 
 </article>
 
-<nav>
+
+{# <nav>
   <a href="{{ '/blog/' | url }}">← Blog index</a>
-</nav>
+</nav> #}
